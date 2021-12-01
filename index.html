@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Burger</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="images/logo.png">
+
+</head>
+<body>
+
+<header class="header">
+    <a href="#" class="logo">
+        <img src="images/logo.png" alt="">
+        <span class="name">z</span>-burger
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-heart fav" id="cart-fav"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>Sign In</h3>
+        <input type="email" name="" placeholder="enter your email" id="" class="box">
+        <input type="password" name="" placeholder="enter your password" id="" class="box">
+        <div class="remember">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <div class="links">
+            <a href="#">forget password</a>
+            <a href="#">sign up</a>
+        </div>
+    </form>
+
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <!-- SEPET BÖLÜMÜ BAŞLANGICI -->
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/hamburgermenu-4.jpg" alt="">
+            <div class="content">
+                <h3>hamburger menu 4</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/hamburgermenu-8.jpg" alt="">
+            <div class="content">
+                <h3>hamburger menu 8</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/hamburgermenu-5.jpg" alt="">
+            <div class="content">
+                <h3>hamburger menu 5</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/hamburgermenu-1.jpg" alt="">
+            <div class="content">
+                <h3>hamburger menu 1</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+        <a href="#" class="btn">checkout now</a>
+    </div>
+    <!-- SEPET BÖLÜMÜ BİTİŞİ -->
+
+</header>
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Z-Burger in the evening</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora reiciendis.</p>
+        <a href="#menu" class="btn">shop now</a>
+    </div>
+
+</section>
+
+<section class="menu" id="menu">
+
+    <h1 class="heading"> our <span>menu</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box morebox">
+            
+            <div class="image">
+                <img src="images/hamburgermenu-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 1</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$35.99 <span>$40.99</span></div>
+            </div>
+
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox">
+            <div class="image">
+                <img src="images/hamburgermenu-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 2</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$18.99 <span>$20.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox">
+            <div class="image">
+                <img src="images/hamburgermenu-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 3</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox">
+            <div class="image">
+                <img src="images/hamburgermenu-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 4</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$19.99 <span>$26.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox">
+            <div class="image">
+                <img src="images/hamburgermenu-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 5</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$13.99 <span>$18.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox">
+            <div class="image">
+                <img src="images/hamburgermenu-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 6</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$18.99 <span>$23.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox">
+            <div class="image">
+                <img src="images/hamburgermenu-7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 7</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$7.99 <span>$10.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox">
+            <div class="image">
+                <img src="images/hamburgermenu-8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu -8</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$5.99 <span>$10.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox" style="display: none;">
+            <div class="image">
+                <img src="images/hamburgermenu-9.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu -9</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+
+        <div class="box morebox" style="display: none;">
+            <div class="image">
+                <img src="images/hamburgermenu-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 10</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$17.99 <span>$26.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox" style="display: none;">
+            <div class="image">
+                <img src="images/hamburgermenu-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 11</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$18.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox" style="display: none;">
+            <div class="image">
+                <img src="images/hamburgermenu-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 12</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$15.99 <span>$22.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox" style="display: none;">
+            <div class="image">
+                <img src="images/hamburgermenu-7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 13</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$9.99 <span>$12.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox" style="display: none;">
+            <div class="image">
+                <img src="images/hamburgermenu-8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu -14</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$7.99 <span>$10.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox" style="display: none;">
+            <div class="image">
+                <img src="images/hamburgermenu-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 3</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox" style="display: none;">
+            <div class="image">
+                <img src="images/hamburgermenu-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 10</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$17.99 <span>$26.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox" style="display: none;">
+            <div class="image">
+                <img src="images/hamburgermenu-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 11</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$18.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox" style="display: none;">
+            <div class="image">
+                <img src="images/hamburgermenu-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 12</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$15.99 <span>$22.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox" style="display: none;">
+            <div class="image">
+                <img src="images/hamburgermenu-7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 13</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$9.99 <span>$12.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox" style="display: none;">
+            <div class="image">
+                <img src="images/hamburgermenu-8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu -14</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$7.99 <span>$10.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box morebox" style="display: none;">
+            <div class="image">
+                <img src="images/hamburgermenu-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>hamburger menu - 3</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="loadmore" class="box loadmore morebox">
+            <a class="box-container" href="#loadmore">Load More</a>
+    </div>
+</div>
+
+</section>
+
+<!-- PRODUCTS BAŞLANGICI -->
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/hamburgermenu-1.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/hamburgermenu-2.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/hamburgermenu-3.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/hamburgermenu-4.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/hamburgermenu-5.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/hamburgermenu-6.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/hamburgermenu-7.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>5.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/hamburgermenu-8.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>9.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box" style="display: none;">
+            <img src="images/hamburgermenu-9.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box" style="display: none;">
+            <img src="images/hamburgermenu-1.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box" style="display: none;">
+            <img src="images/hamburgermenu-4.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box" style="display: none;">
+            <img src="images/hamburgermenu-6.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box" style="display: none;">
+            <img src="images/hamburgermenu-2.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>5.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box" style="display: none;">
+            <img src="images/hamburgermenu-1.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>9.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box" style="display: none;">
+            <img src="images/hamburgermenu-3.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box" style="display: none;">
+            <img src="images/hamburgermenu-5.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>9.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box" style="display: none;">
+            <img src="images/hamburgermenu-7.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+
+    </div>
+
+    <div id="loadmoreproduct" class="box loadmoreproduct morebox">
+        <a class="box-container" href="#loadmoreproduct">Load More</a>
+</div>
+
+
+</section>
+<!-- PRODUCTS BİTİŞİ -->
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-1.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-2.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-3.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/quote-img.png" alt="" class="quote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.</p>
+            <img src="images/pic-1.png" class="user" alt="">
+            <h3>john deo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/hamburgermenu-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">delicious burger</a>
+                <span>furkan koç / 15st aug, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/hamburgermenu-8.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">delicious burger</a>
+                <span>furkan koç / 26st apr, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/hamburgermenu-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">delicious burger</a>
+                <span>furkan koç / 05st jan, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/hamburgermenu-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">delicious burger</a>
+                <span>furkan koç / 15st aug, 2021</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, dicta.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span>about</span> us </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/about.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>what makes our burger special?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus qui ea ullam, enim tempora ipsum fuga alias quae ratione a officiis id temporibus autem? Quod nemo facilis cupiditate. Ex, vel?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit amet enim quod veritatis, nihil voluptas culpa! Neque consectetur obcaecati sapiente?</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="row">
+
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+
+        <iframe class="map" src="https://www.google.com.tr/maps/embed/v1/place?key=AIzaSyDcEPCKrsUtHtZBDWEMvnNtIgT9amxS1AE&q=Besiktas,Istanbul+Turkiye" allowfullscreen="" loading="lazy"></iframe>
+
+
+    </div>
+
+</section>
+
+<section class="footer">
+
+    <div class="footer-container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">review</a></li>
+                    <li><a href="#">order Status</a></li>
+                    <li><a href="#">payment Options</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>contact</h4>
+                <ul>
+                    <li><a href="#">Yeşilova Yan Yolu, 
+                        Küçükçekmece/İstanbul, Türkiye
+                        Çağrı Merkezi
+                        0850 532 56 78
+                        Genel Merkez
+                        0212 425 95 00
+                        info@coffee.com.tr</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>follow Us</h4>
+                <div class="social-links">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+
+<script>
+    const loadmore = document.querySelector('#loadmore');
+        let currentItems = 8;
+        loadmore.addEventListener('click', (e) => {
+            const elementList = [...document.querySelectorAll('.menu .box-container .box')];
+            for (let i = currentItems; i < currentItems + 4; i++) {
+                if (elementList[i]) {
+                    elementList[i].style.display = 'block';
+                }
+            }
+            currentItems +=4;
+    
+            if (currentItems >= elementList.length) {
+                event.target.style.display = 'none';
+            }
+        })
+    </script>
+
+<script>
+    const loadmoreproducts = document.querySelector('#loadmoreproduct');
+        let currentItemproduct = 10;
+        loadmoreproducts.addEventListener('click', (e) => {
+            const elementList = [...document.querySelectorAll('.products .box-container .box')];
+            for (let i = currentItemproduct; i < currentItemproduct + 4; i++) {
+                if (elementList[i]) {
+                    elementList[i].style.display = 'block';
+                }
+            }
+            currentItemproduct +=4;
+    
+            if (currentItemproduct >= elementList.length) {
+                event.target.style.display = 'none';
+            }
+        })
+    </script>
+
+</body>
+</html>
